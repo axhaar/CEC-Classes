@@ -1,5 +1,15 @@
 #include<iostream>
+
 using namespace std;
+
+/*
+ 1  _  _  _  _  _  _  _  _  1 
+ 1  2  _  _  _  _  _  _  2  1 
+ 1  2  3  _  _  _  _  3  2  1 
+ 1  2  3  4  _  _  4  3  2  1
+ 1  2  3  4  5  5  4  3  2  1 
+*/
+
 int main()
 {
     int n=5;
@@ -12,11 +22,11 @@ int main()
         }
         for(int l=1;l<=n-i;l++)
         {
-            cout<<" h ";
+            cout<<" _ ";
         }
         for(int m=1;m<=n-i;m++)
         {
-            cout<<" h ";
+            cout<<" _ ";
         }
        for(int g=i;g>=1;g--)
         {

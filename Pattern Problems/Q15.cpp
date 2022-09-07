@@ -1,5 +1,15 @@
 #include<iostream>
+
 using namespace std;
+
+/*
+ A 
+ B  B
+ C  C  C
+ D  D  D  D
+ E  E  E  E  E
+*/
+
 int main()
 {
     int n=5;
